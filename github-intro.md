@@ -13,8 +13,8 @@ Git Process
      -naming conventions are lowercase, no spaces, use dashes between words
      -added content to file
      -added PAT authentifcation (generated a new personal authentifcation token on github)
-LOCAL ---> remote
-    - git status
-    - git add filename.ext
-    -git commit -m " initial commit"
-    - git push origin branchname 
+LOCAL ---> REMOTE
+    - git status  :exact command, displays status
+    - git add filename.ext : make sure to put the extension in the filename
+    -git commit -m " initial commit" : will not commit if message is not present
+    - git push origin branchname : set up to merge and replace older version with newest version 
